@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: slydex_postgres
+    restart: always
+    environment:
+      POSTGRES_USER : soly
+      POSTGRES_PASSWORD : supersecret #to replace
+      POSTGRES_DB : slydexdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
