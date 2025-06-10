@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-background : #0b0d11;
+    --color-primary : #1644c0;
+    --color-primary-shadow : #193ca2;
+}
+
+body {
+    background-color : #030601;
+    overflow-x : hidden;
+}
+
+.staa {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.silr {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff00cc;
+  font-size: 2.5rem;
+  text-shadow:
+    0 0 5px #ff00cc,
+    0 0 10px #ff00cc,
+    0 0 20px #ff00cc,
+    0 0 40px #ff00cc;
+}
